@@ -1,0 +1,8 @@
+<div class="task-tracker-body">
+    <app-header title="Task Tracker" color="#006599" [hasBtn]="true" btnContent="add" path="/add"></app-header>
+    <div *ngFor="let task of tasks" [ngClass]="task.remainder ? 'task-remainder' : ''" class="tasks" (dblclick)="handleRemainderChange(task)">
+        <h3>{{task.text}} <fa-icon class="del-icon" [icon]="deleteIcon" (click)="handleDelete(task._id)"></fa-icon></h3>
+        <p>{{task.day}} <fa-icon class="edit-icon" [icon]="editIcon" [routerLink]="['/edit', task._id]"></fa-icon></p>
+    </div>
+  </div>
+  <app-notify content="Task deleted successfully" [added]="added" color="rgba(255,0,0,0.5)" bgColor="rgba(255,0,0,0.05)"></app-notify>

@@ -1,0 +1,46 @@
+{
+  "tasks": [
+    {
+      "id": "4",
+      "text": "visit uncle's house",
+      "day": "may 20 at 7 PM",
+      "remainder": true
+    },
+    {
+      "id": "d4dddeab-d79c-4111-8306-8d0191b7ad89",
+      "text": "testing",
+      "day": "its just for a test",
+      "remainder": false
+    },
+    {
+      "id": "b1317e5d-f3ae-483a-8967-75c4cc2d9ffb",
+      "text": "this is a task",
+      "day": "day and time boi",
+      "remainder": true
+    },
+    {
+      "id": "0a62961b-b7a2-43a5-ae6e-28f5a4d137e3",
+      "text": "hello world",
+      "day": "12 pm bro ",
+      "remainder": true
+    },
+    {
+      "id": "285fae89-a736-46e2-9fe9-e91c81671735",
+      "text": "hamza ussaid",
+      "day": "day is yours",
+      "remainder": true
+    },
+    {
+      "id": "625b1846-8288-4557-904e-fd227f90b7d4",
+      "text": "this is a task",
+      "day": "hello world",
+      "remainder": false
+    },
+    {
+      "id": "c25b8319-a7f1-4fea-8667-35faa1a5f60f",
+      "text": "lets test this is edited now ",
+      "day": "hello world this is edited now ",
+      "remainder": true
+    }
+  ]
+}

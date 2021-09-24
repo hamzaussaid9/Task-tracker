@@ -1,0 +1,14 @@
+button{
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.25s ease-in-out;
+}
+button:hover{
+    transition: all 0.25s ease-in-out;
+    opacity: 0.85;
+}
+button:active{
+    opacity: 1;
+}

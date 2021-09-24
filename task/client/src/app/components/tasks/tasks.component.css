@@ -1,0 +1,58 @@
+.tasks{
+    transition: all 0.25s ease-in-out;
+    border-left: 5px solid transparent;
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 0px 0px 3px 0.5px rgba(0,0,0,0.15);
+    border-radius: 3px;
+}
+h3{
+    padding: 5px 0px;
+    color:rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.tasks:hover{
+    transition: all 0.25s ease-in-out;
+    box-shadow: 0px 0px 5px 0.5px rgba(0, 0, 0, 0.25);
+}
+p{
+    color: #006599;
+    opacity: 0.5;
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+.task-tracker-body {
+  max-width: 600px;
+  margin: 30px auto;
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 3px 0.5px #006599;
+  padding: 15px;
+}
+.del-icon:hover{
+    color: red;
+    cursor: pointer;
+}
+.edit-icon:hover{
+    cursor: pointer;
+    opacity: 1;
+    color: blue;
+}
+.del-icon{
+    position: relative;
+    top: -5px;
+} 
+.edit-icon{
+    font-size: 15px;
+    position: relative;
+    right: -3px;
+}
+.task-remainder{
+    border-left: 5px solid #006599;
+}

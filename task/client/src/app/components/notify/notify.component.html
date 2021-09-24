@@ -1,0 +1,4 @@
+<div [ngStyle]="{'color':color, 'background-color':bgColor }" class="added-notification" [ngClass]="added ? 'added' : ''">
+      <h3>{{content}}</h3>
+      <fa-icon (click)="onClick()" [icon]="icon" class="icon"></fa-icon>
+  </div>

@@ -1,0 +1,21 @@
+<div class="task-tracker-body">
+    <app-header title="Adding Task" color="#006599" [hasBtn]="true" btnContent="Go Back" path="/"></app-header>
+    <form (ngSubmit)="onSubmit()">
+    <div class="form-control">
+        <label for="newTask">Write a Task: </label><br />
+        <input [ngClass]="error && newTask === '' ? 'input-error' : ''" class="input-feild" type="text" id="newTask" name="newTask" placeholder="write a task" [(ngModel)]="newTask" required/>
+    </div>
+    <div class="form-control">
+        <label for="day">Day and Time: </label><br />
+        <input [ngClass]="error && day === '' ? 'input-error' : ''" class="input-feild" type="text" id="day" name="day" placeholder="Day and Time" [(ngModel)]="day" required/>
+    </div>
+    <div class="form-control">
+        <label for="remainder">Set Reminder: </label>
+        <input class="check-box" type="checkbox" id="task" name="task" [(ngModel)]="remainder" required/>
+    </div>
+    <button type="submit">
+        Save Task
+    </button>
+</form>
+  </div>
+  <app-notify content="Task Added successfully" [added]="added" color="#006599" bgColor="rgba(0,0,255,0.05)"></app-notify>

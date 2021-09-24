@@ -1,0 +1,4 @@
+<header>
+    <h3 [ngStyle]="{'color': color}">{{title}}</h3>
+    <app-button *ngIf="hasBtn" [content]="btnContent" color="white" bgColor="lightslategrey" [path]="path"></app-button>
+</header>

@@ -1,0 +1,80 @@
+.task-tracker-body {
+  max-width: 600px;
+  margin: 30px auto;
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 3px 0.5px #006599;
+  padding: 15px;
+}
+
+form {
+  padding: 15px;
+}
+
+button {
+  font-weight: bolder;
+  color: white;
+  background-color: #006599;
+  margin: 15px 0px;
+  width: 100%;
+  padding: 5px 0px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  border-radius: 3px;
+}
+
+button:hover {
+  transition: all 0.25s ease-in-out;
+  opacity: 0.8;
+  box-shadow: 0px 0px 1px 1px #006599;
+}
+
+button:active {
+  opacity: 1;
+}
+
+.input-feild {
+  margin: 5px 15px 5px 0px;
+  padding: 5px;
+  border: 0.5px solid lightgrey;
+  width: 90%;
+  color: grey;
+}
+
+.input-feild:focus {
+  outline: none;
+  border: 0.5px solid #006599;
+}
+
+label {
+  font-size: 15px;
+  font-weight: bold;
+  color: #006599;
+}
+
+input::placeholder {
+  color: lightgrey;
+}
+
+input:hover {
+  border: 0.5px solid black;
+}
+
+.form-control {
+  margin: 15px 0px;
+}
+
+.check-box {
+  margin-left: 15px;
+  position: relative;
+  top: 2px;
+}
+
+.input-error {
+  border: 0.5px solid red;
+}
+
+.input-error:hover {
+  border: 0.5px solid red;
+}

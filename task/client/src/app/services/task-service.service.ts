@@ -6,7 +6,7 @@ import { ITask } from '../models/task';
   providedIn: 'root'
 })
 export class TaskServiceService {
-  private ApiUrl = 'http://localhost:1500/tasks';
+  private ApiUrl = 'https://node-task-tracker.herokuapp.com/tasks';
 
   constructor(private http:HttpClient) { }
   
